@@ -16,7 +16,7 @@ If you do not have English set as the default language for your tenant, in parti
 
 Before deploying the SP Starter Kit, complete the following tasks. If you have already attempted to deploy the starter kit and wish to remove the language code requirement to the terms, delete the Term Group `PnPTermSets` before continuing.
 
-1. Open [./provisioning/terms.xml](../provisioning/terms.xml) if your code editor, i.e. Visual Studio Code.
+1. Open [./source/templates/starterkit.xml](../source/templates/starterkit.xml) if your code editor, i.e. Visual Studio Code.
 2. Around line 5, look for the following:
 
 `<pnp:ProvisioningTemplate ... >`
